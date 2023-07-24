@@ -5,6 +5,18 @@ body{
     margin: 0 auto;
     padding: 15px;
 }
+#hulk-fundo{
+    background-color: #86eb8a;
+    color: black;
+}
+#capitao-body{
+    background-color: #4768d3a1;
+    color: black;
+}
+#batman-body{
+    background-color: rgba(0, 0, 0, 0.534);
+    color: black;
+}
 header{
     display: flex;
     flex-direction: row;
@@ -27,6 +39,27 @@ a:hover{
     transition: 0.3s all;
 
 }
+.hulk-link{
+    color: black;
+}
+.hulk-link:hover{
+    color: aliceblue;
+    transition: 0.3s all;
+}
+.capitao-link{
+    color: white;
+}
+.capitao-link:hover{
+    color: #1e07ee;
+    transition: 0.3s all;
+}
+.batman-link{
+    color: black;
+}
+.batman-link:hover{
+    color: white;
+    transition: 0.3s all;
+}
 #inscreva-se-btn{
     border: 2px solid red;
     padding: 10px;
@@ -36,6 +69,34 @@ a:hover{
     background-color: red;
     color: white;
 }
+#inscreva-se-btn-hulk{
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 15px;
+}
+#inscreva-se-btn-hulk:hover{
+    background-color: green;
+    color: white;
+}
+#inscreva-se-btn-capitao{
+    border: 2px solid rgb(0, 9, 128);
+    padding: 10px;
+    border-radius: 15px;
+}
+#inscreva-se-btn-capitao:hover{
+    background-color:#1e07ee;
+    color: white;
+}
+#inscreva-se-btn-batman{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
+#inscreva-se-btn-batman:hover{
+    background-color: black;
+    color: white;
+}
+
 h1{
     font-weight: 200;
 }
@@ -52,6 +113,15 @@ h2{
 spam{
     color: red;
 }
+#hulk-spam{
+    color:#02db05;
+}
+#capitao-spam{
+    color:#1e07ee;
+}
+#batman-spam{
+    color:black;
+}
 p{
     line-height: 20px;
     max-width: 500px;  
@@ -59,6 +129,18 @@ p{
 img{
     width: 400px;
     padding-left: 80px;
+}
+#hulk-img{
+    width: 500px;
+    padding-left: 80px;
+}
+#capitao-img{
+    width: 380px;
+    padding-left: 120px;
+}
+#batman-img{
+    width: 600px;
+    padding-left: 120px;
 }
 form{
     display: flex;
@@ -74,6 +156,15 @@ form [type="submit"]{
 }
 form [type="submit"]{
     cursor: pointer;
+}
+#hulk-input{
+    background-color: #02db05;
+}
+#capitao-input{
+    background-color:#1e07ee;
+}
+#batman-input{
+    background-color:black;
 }
 input{
     margin-top: 20px;
