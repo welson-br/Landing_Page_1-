@@ -17,6 +17,11 @@ body{
     background-color: rgba(0, 0, 0, 0.534);
     color: black;
 }
+#aranha-body{
+    background-color: rgba(255, 255, 255, 0.822);
+    color: black;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -60,6 +65,13 @@ a:hover{
     color: white;
     transition: 0.3s all;
 }
+.aranha-link{
+    color: black;
+}
+.aranha-link:hover{
+    color: red;
+    transition: 0.3s all;
+}
 #inscreva-se-btn{
     border: 2px solid red;
     padding: 10px;
@@ -96,7 +108,16 @@ a:hover{
     background-color: black;
     color: white;
 }
-
+#inscreva-se-btn-aranha{
+    color: black;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 15px;
+}
+#inscreva-se-btn-aranha:hover{
+    background-color: red;
+    color: white;
+}
 h1{
     font-weight: 200;
 }
@@ -140,6 +161,10 @@ img{
 }
 #batman-img{
     width: 600px;
+    padding-left: 120px;
+}
+#aranha-img{
+    width: 480px;
     padding-left: 120px;
 }
 form{
