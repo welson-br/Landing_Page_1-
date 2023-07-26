@@ -18,7 +18,7 @@ body{
     color: black;
 }
 #aranha-body{
-    background-color: rgba(255, 255, 255, 0.822);
+    background-color: rgba(110, 58, 58, 0.822);
     color: black;
 }
 
@@ -27,6 +27,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 #title{
     flex-direction: column;
@@ -124,7 +125,7 @@ h1{
 main{
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 h2{
     font-size: 56px;
@@ -133,9 +134,14 @@ h2{
 }
 spam{
     color: red;
+    
 }
 #hulk-spam{
     color:#02db05;
+    font-size: 56px;
+    line-height: 10px;
+   
+   
 }
 #capitao-spam{
     color:#1e07ee;
@@ -145,26 +151,27 @@ spam{
 }
 p{
     line-height: 20px;
-    max-width: 500px;  
+    max-width: 500px;
+    padding-top: 30px;  
 }
 img{
-    width: 400px;
+    width: 600px;
     padding-left: 80px;
 }
 #hulk-img{
     width: 500px;
-    padding-left: 80px;
+    padding-left: 280px;
 }
 #capitao-img{
-    width: 380px;
-    padding-left: 120px;
+    width: 350px;
+    padding-left: 250px;
 }
 #batman-img{
     width: 600px;
     padding-left: 120px;
 }
 #aranha-img{
-    width: 480px;
+    width: 450px;
     padding-left: 120px;
 }
 form{
